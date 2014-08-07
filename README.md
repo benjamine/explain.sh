@@ -1,4 +1,4 @@
-explainshell.sh
+explains.sh
 ===============
 
 explain shell commands using http://www.explainshell.com/ from the command line.
@@ -6,9 +6,9 @@ explain shell commands using http://www.explainshell.com/ from the command line.
 Install
 -------
 ``` sh
-curl https://benjamine.github.io/explain.sh/install.sh | sudo sh
+# install (or update to) last version
+curl -s https://benjamine.github.io/explain.sh/install.sh | sh
 ```
-
 Usage
 -----
 ``` sh

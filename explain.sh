@@ -4,14 +4,6 @@
 #
 # Usage: explain <command>
 
-# auto-install
-if [ "$*" == "--install" ]; then
-  echo "installing explain.sh"
-  sudo cp $0 /usr/bin/explain.sh
-  echo "done!"
-  exit
-fi
-
 URL="$*"
 
 if [ -z "$URL" ]; then
