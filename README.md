@@ -1,4 +1,17 @@
 explainshell.sh
 ===============
 
-explainshell cli
+explain shell commands using http://www.explainshell.com/ from the command line.
+
+Install
+-------
+``` sh
+curl https://benjamine.github.io/explain.sh/install.sh | sudo sh
+```
+
+Usage
+-----
+``` sh
+# explain a command
+explain.sh git log --graph --abbrev-commit --pretty=oneline origin..mybranch
+```
