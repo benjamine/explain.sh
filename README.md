@@ -1,4 +1,4 @@
-explains.sh
+explain.sh
 ===============
 
 explain shell commands using http://www.explainshell.com/ from the command line.
