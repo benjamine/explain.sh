@@ -5,5 +5,6 @@ if [ -f /usr/bin/explain.sh ]; then
   exit
 fi
 echo "installing..."
-curl --silent https://benjamine.github.io/explain.sh/explain.sh > sudo /usr/bin/explain.sh
+sudo curl --silent https://benjamine.github.io/explain.sh/explain.sh --output /usr/bin/explain.sh
+sudo chmod +x /usr/bin/explain.sh
 echo "explain.sh installed"
